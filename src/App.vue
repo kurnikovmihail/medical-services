@@ -21,7 +21,7 @@
         >
           <img
             :src="item.img"
-            alt=""
+            :alt="item.title"
             class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
           <div class="p-5">
@@ -105,7 +105,7 @@
             <!-- картинка слева на мобилке, сверху на sm+ -->
             <img
               :src="item.img"
-              alt=""
+              :alt="item.title"
               class="w-16 h-16 sm:w-16 sm:h-16 mb-0 sm:mb-3 mr-4 sm:mr-0 rounded-full object-cover"
             />
 
